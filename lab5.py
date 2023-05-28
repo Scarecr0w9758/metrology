@@ -1,7 +1,7 @@
 import random
 
 class Device ():
-    def __init__(self, screenSize):
+    def __init__(self, screenSize="13'3"):
         self.screenSize=screenSize
     def getScreenSize(self):
         return self.screenSize
